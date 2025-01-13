@@ -10,7 +10,7 @@ public class Min {
     public static void main(String[] argv) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        int y = sc.nextInt();
+        int y = 30;
         System.out.println("Nejmensi cislo ze vsech je: " + min(x,y));
     }
 }
